@@ -1,7 +1,6 @@
 #Easy File Walker
 
-An easy way to walk your file system recursively.  This package is an fs.readdir recursive directory search, that returns an array
-analogous to a simple fs.readdir call.
+An easy way to walk your file system recursively.  This package is an fs.readdir recursive directory search, that returns an array analogous to a simple fs.readdir call.
 
 ##Install
 
@@ -51,5 +50,7 @@ walker.walk(myPath)
 		//			'inner-folder/my-inner-file.js',
 		//			'my-file.js'
 		//		]
+	}, function (err) {
+		console.error('An error has occured!');
 	});
 ```
