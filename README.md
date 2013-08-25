@@ -20,3 +20,13 @@ folder/
 		my-inner-file.js
 	my-file.js
 ```
+
+The walker.walk function will return the following result from the above file structure:
+
+```js
+var result = [
+	'inner-folder',
+	'inner-folder/my-inner-file.js',
+	'my-file.js'
+];
+```
