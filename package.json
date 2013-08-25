@@ -1,0 +1,35 @@
+{
+  "name": "easy-file-walker",
+  "description": "An easy way to walk your file system recursively.",
+  "version": "0.0.1",
+  "author": "Jesse Earle <jesse@littlebigberry.com>",
+  "contributors": [
+    {
+      "name": "Jesse Earle",
+      "email": "jesse@littlebigberry.com"
+    }
+  ],
+  "dependencies": {
+    "promise": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "keywords": [
+    "file",
+    "walk",
+    "walker",
+    "recursive",
+    "fs",
+    "readdir"
+  ],
+  "repository": "git://github.com/littlebigberry/easy-file-walker",
+  "main": "index",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
