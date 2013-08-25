@@ -30,3 +30,25 @@ var result = [
 	'my-file.js'
 ];
 ```
+
+##Example
+
+This example uses the same folder structure as above under Usage.
+
+```js
+var path = require('path');
+var walker = require('easy-file-walker');
+
+var myPath = path.join(__dirname, 'folder');
+
+walker.walk(myPath)
+	.then(function (files) {
+		console.log(files);
+		//	logs:
+		// 		[
+		//			'inner-folder',
+		//			'inner-folder/my-inner-file.js',
+		//			'my-file.js'
+		//		]
+	});
+```
