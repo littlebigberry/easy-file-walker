@@ -15,8 +15,8 @@ Easy File Walker makes use of promises.
 Lets say we have the following directory structure:
 
 ```
-		/folder
-				/inner-folder
-						/my-inner-file.js
-				/my-file.js
+folder/
+	inner-folder/
+		my-inner-file.js
+	my-file.js
 ```
